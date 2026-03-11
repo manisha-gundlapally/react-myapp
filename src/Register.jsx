@@ -22,7 +22,7 @@ function Register() {
   const submit = async () => {
     try {
       const res = await axios.post(
-        "http://cabsystemsms-1.onrender.com/register",
+        "https://cabsystemsms-1.onrender.com/register",
         data
       );
 
